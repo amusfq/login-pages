@@ -1,0 +1,201 @@
+
+
+.navbar-default {
+background: #000;
+}
+.topbar .topbar-left {
+background: #000;
+}
+
+#sidebar-menu{
+	background: #191c20;
+}
+
+.user-details{
+	background: #191c20;
+}
+
+.user-details .user-info a.dropdown-toggle{
+	color: #ffffff;
+}
+
+#sidebar-menu > ul > li > a{
+	color: #ffffff;
+}
+
+.side-menu.left {
+    background: #191c20;
+
+}
+
+.content-page {
+    background-color: #2e2f32;
+}
+
+.footer {
+    color: #ffffff;
+    background-color: #2e2f32;
+}
+
+.mini-stat {
+    background: #191c20;
+}
+
+.text-muted {
+    color: #ffffff;
+}
+
+.mini-stat-info span {
+    color: #ffffff;
+}
+
+.page-title{
+	color:#ffffff;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #2e2f32;
+  color: white;
+}
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+  background-color: #191c20;
+  color: white;
+}
+
+.panel-border .panel-body {
+    background: #191c20;
+}
+
+.panel-border .panel-heading {
+    background: #191c20;
+ }
+
+ th {
+    color: #fff;
+}
+
+
+.panel {
+    background-color: #191c20;
+}
+
+.panel-title {
+	color: white;
+}
+
+#sidebar-menu > ul > li > a:hover {
+  background: blue;
+}
+
+#wrapper.enlarged .left.side-menu #sidebar-menu > ul > li > a:hover {
+    background-color: blue !important;
+}
+
+#tabs-modal div.data{
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+body {
+    background: #000;
+    font-family: 'Share Tech Mono', monospace;
+    color: #1db1ad;
+}
+button {
+    padding: 10px 40px;
+    font-weight: bold;
+    color: #fff;
+    background: #000;
+    border: .2em solid #e3d460;
+    border-radius: 0.3em;
+}
+button:hover {
+    background: #e3d460;
+    color: #000;
+    cursor: pointer;
+}
+
+.bg-black {
+    background: #000;
+    border: 1px solid #1db1ad;
+}
+
+.txt-primary {
+    color: #1db1ad;
+}
+.btn-primary {
+    color: #e3d460;
+}
+
+.modal {
+text-align: center;
+padding: 0!important;
+}
+
+.modal:before {
+content: '';
+display: inline-block;
+height: 100%;
+vertical-align: middle;
+margin-right: -4px;
+}
+
+.modal-dialog {
+display: inline-block;
+text-align: left;
+vertical-align: middle;
+}
+
+#particles-js canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -99;
+}
+
+@media screen and (min-width: 601px) {
+    .box {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .box h1 {
+        font-size: 80px;
+        font-family: 'Carter One', cursive;
+        margin: 0;
+    }
+    .box h2 {
+        font-size: 60px;
+        font-family: 'Carter One', cursive;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    .box {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Carter One', cursive;
+        text-align: center;
+        width: 80%;
+    }
+    .box h1 {
+        font-size: 40px;
+        font-family: 'Carter One', cursive;
+        margin: 0;
+    }
+    .box h2 {
+        font-size: 30px;
+        font-family: 'Carter One', cursive;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
