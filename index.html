@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NAROTAMA CTF</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Carter+One|Share+Tech+Mono&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <style>
+    .modal-body {
+      padding: 15px 40px;
+    }
+
+    .form-control {
+      color: #1db1ad;
+      border: 1px solid #1db1ad;
+      background-color: #000;
+    }
+    .form-control:focus {
+      border-color: #1db1ad;
+    }
+    </style>
+</head>
+<body>
+    <div id="particles-js">
+        <div class="box">
+            <h1 class="txt-primary">WELCOME TO</h1>
+            <h2 class="txt-primary">NAROTAMA CTF</h2>
+            <button data-toggle="modal" data-target="#modalLogin">LOGIN</button>
+        </div>
+
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content bg-black">
+            <div class="modal-body text-center">
+              <h1>LOGIN FORM</h1>
+              <p>Please login here or <a class="txt-primary" href="">create an account</a></p>
+              <form >
+                <div class="form-group text-left">
+                  <label for="username">Username</label>
+                  <input type="username" class="form-control" id="username" placeholder="Username">
+                </div>
+                <div class="form-group text-left">
+                  <label for="password">Password</label>
+                  <input type="Password" class="form-control" id="password" placeholder="******">
+                </div>
+                <button data-toggle="modal" data-target="#modalLogin">LOGIN</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'assets/json/particlesjs-config.json', function() {
+        
+        });
+    </script>
+</body>
+</html>
